@@ -21,8 +21,7 @@ Kusto Query Language (KQL): Used to query the logs and filter for specific secur
 PowerShell/Event Viewer: Local monitoring of Windows Security logs.
 
 🗺️ Architecture Overview
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d4f768c6-47d8-48ec-a28b-9f3721d444c2" />
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ca576396-a4b2-4434-8821-36d149363455" />
 
 The architecture consists of a public-facing Windows 10 VM intentionally left vulnerable to the internet. Logs are routed via an Azure Monitor Agent to a Log Analytics Workspace, where Microsoft Sentinel enriches the data using a GeoIP Watchlist to plot attackers on a geographic map.
 
